@@ -27,7 +27,7 @@ dtt = datetime.today().strftime('%Y-%m-%d')
 today = datetime.strptime(dtt, "%Y-%m-%d").date()
 print(today)
 df2.to_csv('optionschain1.csv')
-with open('optionschain1.csv', 'r') as f_in, open(r'C:\Users\krish\OneDrive\Desktop\optionschain.csv', 'w',newline='') as f_out:
+with open('optionschain1.csv', 'r') as f_in, open('YOUR PATH\optionschain.csv', 'w',newline='') as f_out:
   reader = csv.reader(f_in)
   writer = csv.writer(f_out)
   for row in reader:
