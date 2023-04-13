@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv(r'C:\Users\krish\OneDrive\Desktop\optionschain.csv')
+df = pd.read_csv('YOUR PATH\optionschain.csv')
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
